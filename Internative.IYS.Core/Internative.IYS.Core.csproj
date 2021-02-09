@@ -2,6 +2,12 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Authors>Internative</Authors>
+        <Company>Internative A.Ş</Company>
+        <Description>IYS (İleti Yönetim Sistemi) .net core 3.1 api client</Description>
+        <Copyright>Internative</Copyright>
+        <PackageProjectUrl>https://github.com/internative/iys</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/internative/iys</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>

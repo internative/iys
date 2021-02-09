@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DzM4tZm9MpJR0vGpQrR9HWOXvFqg2k4nPM9tcZ6wR20l78CycRP5LC8QxQVP6+HqUTrm8PT7OeR5E0K3a017tA==",
+  "dgSpecHash": "nEPb+FeM6LaG1v20ZiKrG9qLy22a0JYTiuFCSnNN53aSjJ/F6PUeVwdfioRSRGWl7POuO+EvMYAEF5wOwp67vg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ozkan\\RiderProjects\\Internative\\Internative.IYS.Core\\Internative.IYS.Core.csproj",
+  "projectFilePath": "C:\\Projects\\Github\\iys\\Internative.IYS.Core\\Internative.IYS.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ozkan\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],

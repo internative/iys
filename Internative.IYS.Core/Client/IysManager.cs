@@ -12,11 +12,13 @@ namespace Internative.IYS.Core.Client
 {
     public static class IysApiClient
     {
-
         /// <summary>
-        /// Iys api üzerinden token oluşturma işlemini yapar
+        /// IYS api üzerinden token oluşturma işlemi yapar
         /// </summary>
-        public static async Task<IysTokenResponse> GetTokenRequest(IysTokenRequest request, string baseUrl = "https://api.sandbox.iys.org.tr")
+        /// <param name="request">Kullanıcı bilgileri</param>
+        /// <param name="baseUrl">Belirtilmezse canlı api ortamına erişir. Test için https://api.sandbox.iys.org.tr adresi kullanılabilinir.</param>
+        /// <returns></returns>
+        public static async Task<IysTokenResponse> GetTokenRequest(IysTokenRequest request, string baseUrl = "https://api.iys.org.tr/")
         {
             string IYSToken = "";
             {
@@ -50,7 +52,7 @@ namespace Internative.IYS.Core.Client
         /// <summary>
         /// Iys api üzerinden token yenileme işlemini yapar
         /// </summary>
-        public static async Task<IysTokenResponse> RefreshTokenRequest(IysRefreshTokenRequest request, string baseUrl = "https://api.sandbox.iys.org.tr")
+        public static async Task<IysTokenResponse> RefreshTokenRequest(IysRefreshTokenRequest request, string baseUrl = "https://api.iys.org.tr/")
         {
             string IYSToken = "";
             {
@@ -80,7 +82,7 @@ namespace Internative.IYS.Core.Client
         /// Asenkron tekil izin ekleme işlemi yapar
         /// </summary>
         public static async Task<IysResponseWrapper> ConsentRequest(IysRecipient request,
-            string token, string iysCode, string brandCode, string baseUrl = "https://api.sandbox.iys.org.tr")
+            string token, string iysCode, string brandCode, string baseUrl = "https://api.iys.org.tr/")
         {
             var response = new IysResponseWrapper();
             
@@ -119,7 +121,7 @@ namespace Internative.IYS.Core.Client
         /// Tekil izin durumu sorgulama işlemi yapar
         /// </summary>
         public static async Task<ConsentsStatusResponse> ConsentStatusRequest(IysRecipient request,
-            string token, string iysCode, string brandCode, string baseUrl = "https://api.sandbox.iys.org.tr")
+            string token, string iysCode, string brandCode, string baseUrl = "https://api.iys.org.tr/")
         {
             var response = new ConsentsStatusResponse();
             
@@ -158,7 +160,7 @@ namespace Internative.IYS.Core.Client
         /// Asenkron toplu izin ekleme işlemi yapar
         /// </summary>
         public static async Task<BulkConstentsResponse> BulkConstentsRequest(List<IysRecipient> request,
-            string token, string iysCode, string brandCode, string baseUrl = "https://api.sandbox.iys.org.tr")
+            string token, string iysCode, string brandCode, string baseUrl = "https://api.iys.org.tr/")
         {
             var response = new BulkConstentsResponse();
             
@@ -196,7 +198,7 @@ namespace Internative.IYS.Core.Client
         /// <summary>
         /// Çoklu izin ekleme isteği sorgulama işlemi yapar
         /// </summary>
-        public static async Task<List<ConsentsChangesStatusResponse>> ConsentsChangesStatusRequest(string token, string iysCode, string brandCode, string requestId, string baseUrl = "https://api.sandbox.iys.org.tr")
+        public static async Task<List<ConsentsChangesStatusResponse>> ConsentsChangesStatusRequest(string token, string iysCode, string brandCode, string requestId, string baseUrl = "https://api.iys.org.tr/")
         {
             var response = new List<ConsentsChangesStatusResponse>();
             
@@ -231,7 +233,7 @@ namespace Internative.IYS.Core.Client
         /// Çoklu izin durumu sorgulama işlemi yapar
         /// </summary>
         public static async Task<ConsentsChangesResponse> ConsentsChangesRequest(List<IysRecipient> request,
-            string token, string iysCode, string brandCode, string baseUrl = "https://api.sandbox.iys.org.tr")
+            string token, string iysCode, string brandCode, string baseUrl = "https://api.iys.org.tr/")
         {
             var response = new ConsentsChangesResponse();
             
@@ -269,7 +271,7 @@ namespace Internative.IYS.Core.Client
         /// <summary>
         /// İzin hareketi sorgulama işlemi yapar
         /// </summary>
-        public static async Task<ConsentsChangesResponse> ConsentsChangesPullRequest(string token, string iysCode, string brandCode, string baseUrl = "https://api.sandbox.iys.org.tr")
+        public static async Task<ConsentsChangesResponse> ConsentsChangesPullRequest(string token, string iysCode, string brandCode, string baseUrl = "https://api.iys.org.tr/")
         {
             var response = new ConsentsChangesResponse();
             

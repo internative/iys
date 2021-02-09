@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Internative.IYS.Core</id>
+    <version>1.0.1</version>
+    <title>IYS</title>
+    <authors>Internative</authors>
+    <owners>Internative</owners>
+    <projectUrl>https://github.com/internative/iys</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>IYS (İleti Yönetim Sistemi) .net core 3.1 api client</description>
+    <releaseNotes>IYS (İleti Yönetim Sistemi) .net core 3.1 api kütüphanesi</releaseNotes>
+    <copyright>Copyright 2021 Internative</copyright>
+    <tags>iys,ileti yönetim sistemi,iys api,iys kayıt</tags>
+
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="[12.0.3]" />
+    </dependencies>
+    
+  </metadata>
+</package>

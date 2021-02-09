@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ozkan\\RiderProjects\\Internative\\Internative.IYS.Core\\Internative.IYS.Core.csproj": {}
+    "C:\\Projects\\Github\\iys\\Internative.IYS.Core\\Internative.IYS.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ozkan\\RiderProjects\\Internative\\Internative.IYS.Core\\Internative.IYS.Core.csproj": {
+    "C:\\Projects\\Github\\iys\\Internative.IYS.Core\\Internative.IYS.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ozkan\\RiderProjects\\Internative\\Internative.IYS.Core\\Internative.IYS.Core.csproj",
+        "projectUniqueName": "C:\\Projects\\Github\\iys\\Internative.IYS.Core\\Internative.IYS.Core.csproj",
         "projectName": "Internative.IYS.Core",
-        "projectPath": "C:\\Users\\ozkan\\RiderProjects\\Internative\\Internative.IYS.Core\\Internative.IYS.Core.csproj",
+        "projectPath": "C:\\Projects\\Github\\iys\\Internative.IYS.Core\\Internative.IYS.Core.csproj",
         "packagesPath": "C:\\Users\\ozkan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ozkan\\RiderProjects\\Internative\\Internative.IYS.Core\\obj\\",
+        "outputPath": "C:\\Projects\\Github\\iys\\Internative.IYS.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\ozkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
