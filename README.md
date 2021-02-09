@@ -9,6 +9,7 @@ Install-Package Internative.IYS.Core -Version 1.0.1
 IysApiClient nesnesi üzerinden işlemlerinizi yapabilirsiniz. IysApiClient nesnesi static class olup her yerde kullanılabilir. 
 #### Oturum yönetimi ile ilgili metodlar;
 GetTokenRequest =>  IYS api üzerinden token oluşturma işlemi yapar. 
+
 RefreshTokenRequest => Iys api üzerinden token yenileme işlemini yapar. 
 #### İzin yönetimi ile ilgili metodlar;
 BulkConstentsRequest => Asenkron toplu izin ekleme işlemi yapar. 
