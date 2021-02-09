@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://github.com/anthrax3/Internative-IYS</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>İleti Yönetim Sistemi Api Kütüphanesi.</releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>Iys ileti yönetim sistemi</tags>
+  </metadata>
+</package>
