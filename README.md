@@ -12,11 +12,17 @@ GetTokenRequest =>  IYS api üzerinden token oluşturma işlemi yapar.
 RefreshTokenRequest => Iys api üzerinden token yenileme işlemini yapar. 
 #### İzin yönetimi ile ilgili metodlar;
 BulkConstentsRequest => Asenkron toplu izin ekleme işlemi yapar. 
+
 ConsentRequest => Asenkron tekil izin ekleme işlemi yapar. 
+
 ConsentsChangesPullRequest => İzin hareketi sorgulama işlemi yapar. 
+
 ConsentsChangesRequest => Çoklu izin durumu sorgulama işlemi yapar. 
+
 ConsentsChangesStatusRequest => Çoklu izin ekleme isteği sorgulama işlemi yapar. 
+
 ConsentStatusRequest => Tekil izin durumu sorgulama işlemi yapar. 
+
 #### Örnek Kullanım;
 
 ```csharp
